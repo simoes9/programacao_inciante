@@ -1,0 +1,13 @@
+HTML
+<meta charset="UTF-8"> = Acerta a pontuação
+<h1> = destaca no texto
+<br> = pula uma linha
+<a href= "site" </a> = linka o site
+
+
+JavaScript
+<script> " " </script> = entende a linguagem em JavaScript
+alert = cria uma pop-up
+document.write = escrever no mundo HTML
+var " " = variavel
+Math.round = arredonda numero

@@ -1,0 +1,33 @@
+<meta chharset="UTF-8">
+
+<script>
+
+	function pulaLinha() {
+
+		document.write("<br>")
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+			pulaLinha();
+	}
+
+	function exibeTitulo(titulo) {
+
+		document.write("<h1>" + titulo + "</h1>");
+			pulaLinha();
+	}
+
+	var idadeMinha = 28
+	var idadeDoIrmão = 36
+	var totalIdades = idadeMinha+idadeDoIrmão
+	var mediaIdades = (idadeMinha+idadeDoIrmão)/2
+
+	exibeTitulo("Difereça de idade entre eu e meu irmão")
+	mostra("A minha idade é " + (idadeMinha));
+	mostra("A idade do meu irmão é " + (idadeDoIrmão));
+	mostra("O total das idades é " + (totalIdades));
+	mostra("A média das idades é " + (mediaIdades));
+
+</script>
